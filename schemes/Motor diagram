@@ -1,3 +1,5 @@
-En esta carpeta está cómo conectamos los motores a nuestra placa. Usamos un Arduino UNO y lo conectamos al L298P motor driver.
-Consideramos usar este motor driver porque lo vemos más sencillo de usar y tiene la entrada para los dos motores que necesitamos.
-Tanto la placa como el motor driver son componentes de otro kit (KS0428) que habíamos usado con anterioridad.
+En esta carpeta está cómo conectamos los motores a nuestra placa y, además, el cómo conectamos los diversos sensores y actuadores que usamos a la misma.
+
+El microcontrolador que decidimos usar fue Arduino UNO porque ya estábamos familiarizados con su uso. Por otra parte, para controlar los motores optamos por el motor driver LP920 ya que lo consideramos más fácil de usar y sirve para manejar dos motores como lo necesitamos.
+
+Para poder sacarle el máximo provecho a Arduino usamos el sensor shield 5.5 
