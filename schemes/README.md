@@ -12,6 +12,9 @@ Gestión de energía y sensores
 Utilizamos dos baterías de litio recargables. La celda con las dos baterías está conectada al motor drvier que dirige la energía al motor, al arduino UNO y al sensor shield.
 
 Usamos los siguientes componentes:
+
 Dos servomotores
+
 Un sensor de color
+
 Dos sensores ultrasónicos
