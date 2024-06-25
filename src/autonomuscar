@@ -1,0 +1,120 @@
+  #include <Servo.h>
+  #define MD_Ctrl 12  //define direction control pin of right motor
+  #define MD_PWM 3   // define the PWM control pin of right motor
+  #define TRIG_PIN A1
+  #define ECHO_PIN A0
+  #define S0 4
+  #define S1 5
+  #define S2 6
+  #define S3 7
+  #define sensorOut 8
+  Servo servo1;
+  Servo servo2;  // create servo object to control a servo  
+  int pos = 90;    // variable to store the servo position
+  int distancia = 0;
+
+float checkdistance() {
+  Serial.begin(9600);
+  digitalWrite(TRIG_PIN, LOW);
+  delayMicroseconds(2);
+  digitalWrite(TRIG_PIN, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(TRIG_PIN, LOW);
+  float distance = pulseIn(ECHO_PIN, HIGH) / 58.00;
+  delay(10);
+  return distance;
+}
+
+int color() {
+  digitalWrite(S2,LOW); //rojo
+  digitalWrite(S3,LOW);
+  int R = pulseIn(sensorOut, LOW);
+  delay(10);
+  
+  digitalWrite(S2,HIGH); //verde
+  digitalWrite(S3,HIGH);
+  int G = pulseIn(sensorOut, LOW);
+  delay(10);
+ 
+  // Azul
+  digitalWrite(S2,LOW); //azul
+  digitalWrite(S3,HIGH);
+  int B = pulseIn(sensorOut, LOW);
+  delay(10);
+
+  if(R<130 && R>0 && G>115 && B>110) {
+    int color = 1; // rojo
+    delay(10);
+    return color;
+  } else if(R>130 && G>130 && B>130) {
+    int color = 2; // negro
+    delay(10);
+    return color;
+  } else {
+    int color = 3; // verde
+    delay(10);
+    return color;
+  }
+}
+
+void setup(){
+Serial.begin(9600);
+  pinMode(TRIG_PIN, OUTPUT);
+  pinMode(ECHO_PIN, INPUT);// put your setup code here, to run once:
+  servo1.attach(A2);
+  servo2.attach(A3); // servo motor que controla la dirección del vehículo.
+  pinMode(MD_Ctrl, OUTPUT);//define direction control pin of right motor as output.
+  pinMode(MD_PWM, OUTPUT);//define the PWM control pin of right motor as output
+  pinMode(S0, OUTPUT);
+  pinMode(S1, OUTPUT);
+  pinMode(S2, OUTPUT);
+  pinMode(S3, OUTPUT);
+  pinMode(sensorOut, INPUT);
+  digitalWrite(S0,HIGH);
+  digitalWrite(S1,LOW);
+  Serial.begin(9600);
+}
+
+void loop(){
+ distancia = checkdistance();
+ int valor = color();
+ Serial.println(valor);
+ Serial.println(distancia);
+  if(distancia<60) {
+    go_left();
+    delay(2000);
+    } else {
+      go_fordward();
+      delay(100);
+    }
+  }
+
+void go_backward() {
+  digitalWrite(MD_Ctrl, HIGH);
+  analogWrite(MD_PWM, 100);
+  servo2.write(90);
+}
+
+void go_fordward() {
+  digitalWrite(MD_Ctrl, LOW);
+  analogWrite(MD_PWM, 100);
+  servo2.write(90);
+}
+
+void go_right() {
+  digitalWrite(MD_Ctrl, LOW);
+  analogWrite(MD_PWM, 100);
+  servo2.write(180);
+}
+
+void go_left() {
+  digitalWrite(MD_Ctrl, LOW);
+  analogWrite(MD_PWM, 100);
+  servo2.write(0);
+}
+
+void stop() {
+  digitalWrite(MD_Ctrl, LOW);
+  analogWrite(MD_PWM, 0);
+  servo2.write(90);
+}
