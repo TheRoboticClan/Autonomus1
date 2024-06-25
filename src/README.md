@@ -2,4 +2,4 @@ Control software
 ====
 
 Utilizamos arduino IDE para programar nuestro robot.
-El archivo autonmuscar contiene el codigo utilizado.
+El archivo autonomuscar contiene el codigo utilizado.
