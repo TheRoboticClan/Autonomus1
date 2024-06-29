@@ -13,8 +13,8 @@ Utilizamos dos baterías de litio recargables. La celda con las dos baterías es
 
 Usamos los siguientes componentes:
 
-Dos servomotores
+Un servomotor
 
 Un sensor de color
 
-Dos sensores ultrasónicos
+Un sensor ultrasónico
