@@ -1,1 +1,1 @@
-Fotos del vehículo
+Vehicle Photos
