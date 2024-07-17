@@ -7,6 +7,7 @@ Our team is made up of: Moisés Palacio, Nathan Jolly and Antonio Pérez.
 Together we developed a robot car that can drive autonomously. We use two motors, one for the rear wheels and one for the steering axle. An ultrasonic sensor to detect obstacles and a color sensor to detect the color of the traffic lights. We use the Arduino Uno microcontroller for our project.
 
 Content
+==
 
 models in this directory you will find the 3D modeled files for the assembly of the robot and its components.
 
@@ -23,6 +24,7 @@ v-photos contains 6 photos of the vehicle (from every side, from top and bottom)
 video contains the video.mp4 file with the robot driving demonstration.
 
 Mobility management
+==
 
 In this folder is how we connect the motors to our board. We use an Arduino UNO and connect it to the L298P motor driver. We considered using this motor driver because we find it easier to use and it has the input for the two motors we need. Both the board and the driver motor are components from another kit (KS0428) that we had used previously.
 
@@ -31,6 +33,7 @@ To move the robot we used, from a driving axis of a remote control car that we h
 To drive the motor we decided to build a drive shaft ourselves using some tires from the Obstacle Avoidance Smart Car kit, some sweet wire, popsicle sticks, and a couple of cable clips. In order to direct the driving axis we use a servo motor that is connected to the Sensor Shield.
 
 Energy and sensor management
+==
 
 We use two rechargeable lithium batteries. The cell with the two batteries is connected to the drvier motor which directs the power to the motor, the arduino UNO and the sensor shield.
 
