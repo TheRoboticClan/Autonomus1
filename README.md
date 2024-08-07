@@ -1,4 +1,4 @@
-## The Robotic Clan ##
+The Robotic Clan
 ==
 #### Welcome! ####
 
