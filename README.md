@@ -9,25 +9,25 @@ The Robotic Clan
 Content
 ==
 > 
-- models  in this directory you will find the 3D modeled files for the assembly of the robot and its components.
+- **models**  in this directory you will find the 3D modeled files for the assembly of the robot and its components.
 
-- other  in this directory you will find additional files of the robot operation, process diagram and execution.
+- **other**  in this directory you will find additional files of the robot operation, process diagram and execution.
 
-- schemes  contains a schematic diagram in PNG format of the electromechanical components illustrating all the elements (electronic components and motors) used in the vehicle and how 
+- **schemes**  contains a schematic diagram in PNG format of the electromechanical components illustrating all the elements (electronic components and motors) used in the vehicle and how 
    they are connected to each other.
 
-- src  contains code of control software for all components which were programmed to participate in the competition.
+- **src**  contains code of control software for all components which were programmed to participate in the competition.
 
-- t-photos  contains 2 photos of the team (an official one and one funny photo with all team members).
+- **t-photos**  contains 2 photos of the team (an official one and one funny photo with all team members).
 
-- v-photos  contains 6 photos of the vehicle (from every side, from top and bottom).
+- **v-photos**  contains 6 photos of the vehicle (from every side, from top and bottom).
 
-- video  contains the video.mp4 file with the robot driving demonstration.
+- **video**  contains the video.mp4 file with the robot driving demonstration.
 
 Mobility management
 ==
 
-In this folder is how we connect the motors to our board. We use an Arduino UNO and connect it to the L298P motor driver. We considered using this motor driver because we find it easier to use and it has the input for the two motors we need. Both the board and the driver motor are components from another ** kit (KS0428) ** that we had used previously.
+In this folder is how we connect the motors to our board. We use an Arduino UNO and connect it to the L298P motor driver. We considered using this motor driver because we find it easier to use and it has the input for the two motors we need. Both the board and the driver motor are components from another **kit (KS0428)** that we had used previously.
 
 To move the robot we used, from a driving axis of a remote control car that we had, a motor and we connected it to the motor driver to pin 2 and 1 which is fixed to digital pin 3 and digital pin 12 of the Arduino UNO. We decided to use this motor and put the driving axis at the back of the robot to make it easier for our robot to move forward.
 
