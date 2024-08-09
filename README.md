@@ -9,7 +9,7 @@ The Robotic Clan
 Content
 ==
 > 
-- **models** : in this directory you will find the 3D modeled files for the assembly of the robot and its components.
+- **models**: in this directory you will find the 3D modeled files for the assembly of the robot and its components.
 
 - **other** : in this directory you will find additional files of the robot operation, process diagram and execution.
 
