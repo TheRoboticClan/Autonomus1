@@ -9,12 +9,7 @@ The Robotic Clan
 Content
 ==
 > 
-- **models**: in this directory you will find the 3D modeled files for the assembly of the robot and its components.
-
-- **other**: in this directory you will find additional files of the robot operation, process diagram and execution.
-
-- **schemes**: contains a schematic diagram in PNG format of the electromechanical components illustrating all the elements (electronic components and motors) used in the vehicle and how 
-   they are connected to each other.
+- **schemes**: contains a schematic diagram in PNG format of the electromechanical components illustrating all the elements (electronic components and motors) used in the vehicle and how they are connected to each other.
 
 - **src**: contains code of control software for all components which were programmed to participate in the competition.
 
@@ -40,7 +35,7 @@ We use two rechargeable lithium batteries. The cell with the two batteries is co
 
 We use the following components:
 
-a servomotor
+A servomotor
 
 A color sensor
 
