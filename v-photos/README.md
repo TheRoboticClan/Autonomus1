@@ -3,22 +3,28 @@ Vehicle Photos
 
 This directory encompass our differents angles of the robot, Now including the new ultrasonic sensor, driving motor and front axle driving
 
-Front Angle
+Front Side
 ==
 
 ![](https://github.com/TheRoboticClan/Autonomus1/blob/main/v-photos/AutonomusOne-Front.jpg)
 
-Left Angle
+Left Side
 ==
 
 ![](https://github.com/TheRoboticClan/Autonomus1/blob/main/v-photos/AutonomusOne-Left.jpg)
 
-Right Angle
+Right Side
 ==
 
 ![](https://github.com/TheRoboticClan/Autonomus1/blob/main/v-photos/AutonomusOne-Right.jpg)
 
-Top Angle
+Top Side
 ==
 
+![](https://github.com/TheRoboticClan/Autonomus1/blob/main/v-photos/AutonomusOne-Top.jpg)
+
+Bottom Side
+==
+
+![]()
 
