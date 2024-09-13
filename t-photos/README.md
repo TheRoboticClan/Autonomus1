@@ -11,4 +11,4 @@ Official Photo
 Funny Photo
 ==
 
-![]()
+![](https://github.com/TheRoboticClan/Autonomus1/blob/main/t-photos/Funny%20Photo.jpg)
