@@ -6,4 +6,4 @@ This directory encompass our differents angles of the robot, Now including the n
 Top Angle
 ==
 
-![](https://github.com/TheRoboticClan/Autonomus1/blob/main/v-photos/Top%20Angle.jpg)
+![]
