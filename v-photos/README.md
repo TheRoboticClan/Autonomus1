@@ -6,4 +6,4 @@ This directory encompass our differents angles of the robot, Now including the n
 Front Angle
 ==
 
-![](https://github.com/TheRoboticClan/Autonomus1/blob/main/v-photos/IMG_20240911_122124.jpg)
+![](https://github.com/TheRoboticClan/Autonomus1/blob/main/v-photos/AutonomusOne-Front.jpg)
