@@ -7,3 +7,8 @@ Front Angle
 ==
 
 ![](https://github.com/TheRoboticClan/Autonomus1/blob/main/v-photos/AutonomusOne-Front.jpg)
+
+Left Angle
+==
+
+![](https://github.com/TheRoboticClan/Autonomus1/blob/main/v-photos/AutonomusOne-Left.jpg)
