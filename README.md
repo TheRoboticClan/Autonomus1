@@ -35,8 +35,8 @@ We use two rechargeable lithium batteries. The cell with the two batteries is co
 
 We use the following components:
 
-A servomotor: where the color sensor and the ultrasonic sensor are placed to locate the traffic lights and have a broader view.
+- **Servomotor**: where the color sensor and the ultrasonic sensor are placed to locate the traffic lights and have a broader view.
 
-A color sensor (TCS3200): to identify the color of the traffic signs and based on that the car make a decision.
+- **A color sensor (TCS3200)**: to identify the color of the traffic signs and based on that the car make a decision.
 
-Two ultrasonics sensors (HC-SR04): one to locate the distance between the traffic signs and the robot and another to determine the distance between the robot and the wall.
+- **Two ultrasonics sensors (HC-SR04)**: one to locate the distance between the traffic signs and the robot and another to determine the distance between the robot and the wall.
