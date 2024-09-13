@@ -1,7 +1,7 @@
-Photos Of The Team
+Team's Photo
 ====
 
-The Robotic Clan it's made up of Moisés Palacio, Antonio Pérez y Nathan Jolly.
+The Robotic Clan is made up of Moisés Palacio, Antonio Pérez y Nathan Jolly.
 
 Official Photo
 ==
